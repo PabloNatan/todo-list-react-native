@@ -5,4 +5,6 @@ export const Wrapper = styled.View`
   background-color: ${({ theme }) => theme["--gray-600"]};
 `;
 
-export const Logo = styled.Image``;
+export const ContentWrapper = styled.View`
+  padding: 0 16px;
+`;
